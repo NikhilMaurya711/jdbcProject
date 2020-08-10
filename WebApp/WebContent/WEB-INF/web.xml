@@ -5,6 +5,8 @@
 	id="WebApp_ID" version="2.5">
 	<display-name>WebApp</display-name>
 	<welcome-file-list>
+		<welcome-file>date</welcome-file>
+		<welcome-file>LoginForm</welcome-file>
 		<welcome-file>index.html</welcome-file>
 		<welcome-file>index.htm</welcome-file>
 		<welcome-file>index.jsp</welcome-file>
@@ -45,7 +47,75 @@
 		<servlet-name>MyJdbcServlet</servlet-name>
 		<url-pattern>/jdbc</url-pattern>
 	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CreateCookieClass</servlet-name>
+		<servlet-class>com.jspider.webapp.first.CreateCookieClass</servlet-class>
+	</servlet>
 
+	<servlet-mapping>
+		<servlet-name>CreateCookieClass</servlet-name>
+		<url-pattern>/creteCookie</url-pattern>
+	</servlet-mapping>
 
+	<servlet>
+		<servlet-name>ReadCookieServlet</servlet-name>
+		<servlet-class>com.jspider.webapp.first.ReadCookieServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ReadCookieServlet</servlet-name>
+		<url-pattern>/readCookie</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>MyRedirectServlet</servlet-name>
+		<servlet-class>com.jspider.webapp.first.MyRedirectServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MyRedirectServlet</servlet-name>
+		<url-pattern>/redirect</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>MyForwardServlet</servlet-name>
+		<servlet-class>com.jspider.webapp.first.MyForwardServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MyForwardServlet</servlet-name>
+		<url-pattern>/forward</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>MyIncludeServlet</servlet-name>
+		<servlet-class>com.jspider.webapp.first.MyIncludeServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MyIncludeServlet</servlet-name>
+		<url-pattern>/include</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Servlet1</servlet-name>
+		<servlet-class>com.jspider.webapp.first.Servlet1</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Servlet1</servlet-name>
+		<url-pattern>/servlet1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Servlet2</servlet-name>
+		<servlet-class>com.jspider.webapp.first.Servlet2</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Servlet2</servlet-name>
+		<url-pattern>/servlet2</url-pattern>
+	</servlet-mapping>
 </web-app>
 

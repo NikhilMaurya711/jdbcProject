@@ -39,13 +39,16 @@ public class MyJdbcServlet extends HttpServlet {
 			
 			String htmlres = " <html> "
 					+ " <head> "
+					+ " <style> "
+					+ " table,th,td { border : 2px solid black; } "
+					+ " </style> "
 					+ " <title> "
 					+ " MyJdbcServlet "
-					+ " </title> "
+					+ " </title> "				
 					+ " </head> "
 					+ " <body> "
-					+ " <table> "
-					+ " <tr> "
+					+ " <table > "
+					+ " <tr > "
 					+ " <th> "+"regno"+ "</th>"
 					+ " <th> "+"firstname"+ "</th>"
 					+ " <th> "+"middlename"+ "</th>"
@@ -56,7 +59,7 @@ public class MyJdbcServlet extends HttpServlet {
 			while (rs.next()) {
 				int regNum = rs.getInt("regno");
 				String fName = rs.getString("firstname");
-				String mName = rs.getString("middlename");
+			String mName = rs.getString("middlename");
 				String lName = rs.getString("lastname");
 				
 				htmlres = htmlres+"<tr>"
