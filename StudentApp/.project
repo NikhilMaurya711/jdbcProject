@@ -28,41 +28,4 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>WebContent/AccountantLoginForm.html</name>
-			<type>1</type>
-			<location>D:/Desktop/king/IT/sw/J2EE/servlet/workspace/StudentApp/StudentForm/AccountantLoginForm.html</location>
-		</link>
-		<link>
-			<name>WebContent/AddAccountantForm.html</name>
-			<type>1</type>
-			<location>D:/Desktop/king/IT/sw/J2EE/servlet/workspace/StudentApp/StudentForm/AddAccountantForm.html</location>
-		</link>
-		<link>
-			<name>WebContent/AdminLoginForm.html</name>
-			<type>1</type>
-			<location>D:/Desktop/king/IT/sw/J2EE/servlet/workspace/StudentApp/StudentForm/AdminLoginForm.html</location>
-		</link>
-		<link>
-			<name>WebContent/SearchStudentForm.html</name>
-			<type>1</type>
-			<location>D:/Desktop/king/IT/sw/J2EE/servlet/workspace/StudentApp/StudentForm/SearchStudentForm.html</location>
-		</link>
-		<link>
-			<name>WebContent/index.html</name>
-			<type>1</type>
-			<location>D:/Desktop/king/IT/sw/J2EE/servlet/workspace/StudentApp/StudentForm/index.html</location>
-		</link>
-		<link>
-			<name>WebContent/navaAdmin.html</name>
-			<type>1</type>
-			<location>D:/Desktop/king/IT/sw/J2EE/servlet/workspace/StudentApp/StudentForm/navaAdmin.html</location>
-		</link>
-		<link>
-			<name>WebContent/newAccountant.html</name>
-			<type>1</type>
-			<location>D:/Desktop/king/IT/sw/J2EE/servlet/workspace/StudentApp/StudentForm/newAccountant.html</location>
-		</link>
-	</linkedResources>
 </projectDescription>

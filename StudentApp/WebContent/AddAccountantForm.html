@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AddAccountantForm</title>
+	<style>
+		label{
+			display: inline-block;
+			width: 100px;
+			position: left;
+		}
+		.submit{
+			width: auto;
+			position: relative;
+			margin: 10px 100px;
+			display: block;
+		}
+		textarea{
+			width: 225px;
+			height: 255px;
+			vertical-align: top;
+		}
+		
+				
+	</style>
+</head>
+<body> 
+	<h1>Add Student Form</h1>
+	<label for="user" class="l1">name :</label>
+	<input type="text" name="user" placeholder="name" ><br>
+	<label for="Email" class="l1"> Email:</label>
+	<input type="Email" name="Email"  placeholder="e.g. abc@xyz.com" ><br>
+	<label for="gender" class="l1">Gender</label>
+	<input type="radio" name="gender">Male
+	<input type="radio" name="gender">Female<br>
+	<label>Course</label>
+	<select name="Course">
+		<option name="Java EAD">Java EAD</option>
+		<option name="Java J2EE">Java J2EE</option>
+		<option name="Java Servlet">Java Servlet</option>
+	</select><br>
+	<label for="fee" >Fee:</label>
+	<input type="text" name="fee" placeholder="" ><br>
+	<label for="paid" >Paid:</label>
+	<input type="text" name="paid" placeholder="" ><br>
+	<label for="due" >due:</label>
+	<input type="text" name="due" placeholder="" ><br>
+	<br>
+	<label for="add" class="l1">address:</label>
+	<textarea name="add"  placeholder="address..."></textarea>
+	<br><label for="contact" >contact No:</label>
+	<input type="text" name="contact" placeholder="" ><br>
+	<input class="submit" type="submit" name="submit" value="Save Student"><br>
+</body>
+</html>

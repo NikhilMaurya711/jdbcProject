@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>index</title>
+	<style>
+		label{
+			display: inline-block;
+			width: 100px;
+		}
+		.submit{
+			width: 65px;
+			position: relative;
+			margin: 10px 100px;
+			display: block;
+		}
+        div .login{
+            display: inline-block;
+            margin: 20px 150px ;
+            border: green 2px solid;
+            padding: 20px;
+            float:left;
+        }
+        .index{
+            width: 100%;
+            margin: 0;
+            background-color: black;
+        }
+        .index li{
+            list-style-type: none;
+            display: inline-block;
+            color: rgb(180, 209, 185);
+            margin: 0;
+            border: 1px red solid;
+        }
+		
+	</style>
+</head>
+<body>
+    <div class="index">
+        <ul>
+            <li>StudentApp</li>
+            <li>Home</li>
+        
+        </ul>
+    </div>
+    <div class="login">
+	<form action="http://localhost:8080/StudentApp/admin" method="POST>
+        <h3>Admin login Form</h3>
+		<label for="Admin-Email" class="l1"> Email:</label>
+	<input type="Email" name="Admin-Email"  placeholder="e.g. abc@xyz.com" ><br>
+		<label> password:</label>
+		<input  type="password" name="Admin-password" placeholder="password" >
+		<input class="submit" type="submit" name="Admin-login" value="login"><br>
+    </form>
+    </div>
+
+    <div class="login">
+        <form>
+            <h3>Accountant login Form</h3>
+            <label for="Accountant-Email" class="l1"> Email:</label>
+        <input type="Email" name="Accountant-Email"  placeholder="e.g. abc@xyz.com" ><br>
+            <label> password:</label>
+            <input  type="password" name="Accountant-password" placeholder="password" >
+            <input class="submit" type="submit" name="Accountant-login" value="login"><br>
+        </form>
+        </div>
+</body>
+</html>
