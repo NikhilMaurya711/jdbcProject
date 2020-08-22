@@ -13,10 +13,10 @@ public class MyFirstServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
 		Date date = new Date();
 		PrintWriter out = resp.getWriter();
-		
-		resp.setHeader("Refresh","1");
+
+		resp.setHeader("Refresh", "1");
 		out.println("current Date and response: " + date);
-		
+
 	}
 
 }

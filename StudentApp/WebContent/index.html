@@ -13,43 +13,48 @@
 			margin: 10px 100px;
 			display: block;
 		}
-        div .login{
+        div {
             display: inline-block;
             margin: 20px 150px ;
-            border: green 2px solid;
-            padding: 20px;
+            border: black 2px solid;
+            padding: 40px;
             float:left;
         }
         .index{
             width: 100%;
             margin: 0;
-            background-color: black;
+            background-color: #010101;
         }
-        .index li{
+       
+        .index li, a {
             list-style-type: none;
             display: inline-block;
             color: rgb(180, 209, 185);
-            margin: 0;
-            border: 1px red solid;
+            width: 100px;
+            margin:0px;
+            color: white;
+            padding : 5px;
+            text-decoration:none;
         }
+        
 		
 	</style>
 </head>
 <body>
-    <div class="index">
+    <header class="index">
         <ul>
-            <li>StudentApp</li>
-            <li>Home</li>
+            <li><a href="#">StudentApp</a></li>
+            <li><a href="#">Home</a></li>
         
         </ul>
-    </div>
-    <div class="login">
-	<form action="http://localhost:8080/StudentApp/admin" method="POST>
+    </header>
+    <div class="login" id="admin">
+	<form action="http://localhost:8080/StudentApp/admin" method="POST">
         <h3>Admin login Form</h3>
 		<label for="Admin-Email" class="l1"> Email:</label>
-	<input type="Email" name="Admin-Email"  placeholder="e.g. abc@xyz.com" ><br>
+	<input type="Email" name="Admin-Email"  placeholder="e.g. abc@xyz.com" value="admin@jspiders.com" ><br>
 		<label> password:</label>
-		<input  type="password" name="Admin-password" placeholder="password" >
+		<input  type="password" name="Admin-password" placeholder="password" value="admin8055" >
 		<input class="submit" type="submit" name="Admin-login" value="login"><br>
     </form>
     </div>
@@ -57,7 +62,7 @@
     <div class="login">
         <form>
             <h3>Accountant login Form</h3>
-            <label for="Accountant-Email" class="l1"> Email:</label>
+            <label for="Accountant-Email" class="l1" id="Accountant"> Email:</label>
         <input type="Email" name="Accountant-Email"  placeholder="e.g. abc@xyz.com" ><br>
             <label> password:</label>
             <input  type="password" name="Accountant-password" placeholder="password" >
